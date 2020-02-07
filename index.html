@@ -11,7 +11,7 @@
 			/*我们让整个屏幕都有一种淡淡的背景色*/
 			}
 			body{
-				background-color:lightcyan;
+				background-color:Azure;
 			}
 			/*下面这个box是承载全部网页内容的容器样式，是下面所有div元素的父级元素的样式，注意一定要先将字号设为0，否则主体和页脚之间会有一条白色缝隙*/
 			#box{
@@ -21,7 +21,11 @@
 			}
 			#logo{
 				height:100px;
-				background-color:orange;
+				border:1px solid blue; /*边界线*/
+			        background-image:url("789.png");
+				background-repeat: no-repeat; /*不平埔*/
+			  	background-position:50% 50% ; /*居中*/
+				background-size:100% 100%; /*背景图片大小*/
 			}
 			#nav{
 				display:inline-block;
@@ -51,8 +55,8 @@
 				<span style="font-size:60px;margin-left:300px;">page of csluo</span>
 			</div>
 			<div id='nav'>
-				<ul type='none' style="font-size:60px;margin-left:50px;margin-top:100px;">
-					<li href="wwwnet.html">网址导航/li>
+				<ul type='none' style="font-size:10px;margin-left:50px;margin-top:100px;">
+					<li href="wwwnet.html">网址导航</li>
 					<li>航</li>
 					<li>区</li>
 					<li>域</li>
